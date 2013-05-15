@@ -1,0 +1,10 @@
+#ifndef Animal_H
+#define Animal_H
+class Animal
+{
+  public:
+    virtual void sayhello();
+};
+#endif
+
+

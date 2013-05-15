@@ -1,0 +1,10 @@
+#include "Animal.hh"
+#include "MyHuman.hh"
+int main()
+{
+  Animal* p = new Human();
+  p->doSomething();
+}
+
+
+
