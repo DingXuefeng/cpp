@@ -2,8 +2,8 @@
 #include "MyHuman.hh"
 int main()
 {
-  AbsPdf gauss;
-  gauss.fitTo();
+//  AbsPdf gauss;
+//  gauss.fitTo();
 }
 
 

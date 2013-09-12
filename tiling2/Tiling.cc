@@ -83,7 +83,7 @@ void Tiling::print()
   if(m_putted.size()==0)
     PMT();
   ofstream data("data.txt");
-  data<<" l "<<m_l*unitLength()<<endl;
+  data<<" l "<<m_l<<endl;
   data<<" n "<<n()<<endl;
   data<<" theta "<<initTheta()<<endl;
   TFile output("out.root","RECREATE");
@@ -96,7 +96,7 @@ void Tiling::print()
   {
       //cout<<"m_putted["<<ix<<"]== ";
       //m_putted[ix]->print();
-      point = (*m_putted[ix])*unitLength();
+      point = (*m_putted[ix]);
       x = point.x();
       y = point.y();
       data<<x<<" "<<y<<endl;
